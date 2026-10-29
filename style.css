@@ -1,0 +1,40 @@
+:root {
+  --brand: #52b788;
+  --brand-dark: #52b788;
+  --lav: #6b73b8;
+  --bs-primary: var(--lav);
+  --bs-primary-rgb: 107, 115, 184;
+  --bs-body-font-family: Montserrat, system-ui, sans-serif;
+}
+
+.app-header {
+  background: var(--brand);
+  padding: 22px 0 56px;
+}
+
+.main-pull {
+  margin-top: -34px;
+}
+
+.btn-brand {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--brand);
+  --bs-btn-border-color: var(--brand);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--brand-dark);
+  --bs-btn-hover-border-color: var(--brand-dark);
+  --bs-btn-active-bg: var(--brand-dark);
+  --bs-btn-active-border-color: var(--brand-dark);
+  --bs-btn-disabled-bg: var(--brand);
+  --bs-btn-disabled-border-color: var(--brand);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--brand);
+  box-shadow: 0 0 0 0.2rem rgba(228, 0, 75, 0.15);
+}
+
+.log-box {
+  max-height: 170px;
+}
